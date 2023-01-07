@@ -1,0 +1,258 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: sans-serif;
+}
+/*  header start */
+#header {
+  background-color: beige;
+  background-image: url("../images/banner/banner3.png");
+  height: 600px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+#header .container {
+  height: fit-content;
+  margin-right: 100px;
+  width: 410px;
+}
+
+#header .container h2 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #ffffff;
+  text-align: right;
+}
+#header .container p {
+  font-size: 16px;
+  color: #ffffff;
+  text-align: right;
+  margin: 20px 0px;
+  line-height: 25px;
+}
+#header .container button {
+  float: right;
+  padding: 15px 20px;
+  font-size: 20px;
+  font-weight: 600;
+  color: #005fac;
+  border-radius: 5px;
+  border: 0px;
+}
+
+/*  header end */
+/*  info section start  */
+#my-plan {
+  margin: 80px 0px;
+}
+#my-plan .info {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  justify-content: center;
+}
+#my-plan .info .person-img {
+  width: 47%;
+}
+#my-plan .info .person-img img {
+  height: 600px;
+  float: right;
+  margin-left: 30px;
+}
+#my-plan .info .person-info {
+  margin: auto;
+  width: 40%;
+}
+#my-plan .info .person-info h2 {
+  font-size: 40px;
+  font-weight: bold;
+  padding-right: 90px;
+}
+#my-plan .info .person-info p {
+  font-size: 18px;
+  margin: 18px 0px;
+}
+.person-info li {
+  list-style: none;
+  margin-bottom: 8px;
+}
+.person-info ul li img {
+  width: 16px;
+  margin-right: 5px;
+}
+/*  info section end  */
+
+/*  my plan start */
+#plan-section {
+  margin: 80px 0px;
+}
+#plan-section #plan-section-title {
+  font-weight: 700;
+  font-size: 40px;
+  text-align: center;
+}
+#plan-section #plan-features {
+  width: 100%;
+  margin: auto;
+}
+#plan-features {
+  display: flex;
+  gap: 110px;
+  justify-content: center;
+  padding: 60px 0px;
+}
+#plan-features .single-feature {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+  text-align: center;
+}
+#plan-features .single-feature img {
+  width: 80px;
+  margin: auto;
+}
+/*  my plan end */
+/* Our work start */
+#our-work {
+  display: flex;
+  gap: 10%;
+  margin: 100px 120px;
+}
+.our-work-left {
+  width: 45%;
+}
+.our-work-left button {
+  background-color: #005fac;
+  color: white;
+  border: 0px;
+  padding: 5px;
+  border-radius: 4px;
+}
+.our-work-left h2 {
+  font-size: 45px;
+  margin: 20px 0px;
+  color: #393939;
+}
+.our-work-left .countdown {
+  display: flex;
+  justify-content: space-between;
+}
+.our-work-left .countdown h2 {
+  color: #005fac;
+}
+.our-work-right {
+  width: 45%;
+}
+.our-work-right img {
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* Our work end */
+
+/* call me start */
+#call-me {
+  margin: 80px auto;
+  background: rgb(0, 96, 175);
+  background: linear-gradient(
+      90deg,
+      rgba(0, 96, 175, 1) 2%,
+      rgba(1, 95, 173, 1) 3%,
+      rgba(0, 95, 173, 0.21939198042498254) 79%
+    ),
+    url("../images/watch.png");
+  height: 250px;
+  width: 950px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 5px;
+}
+#call-me .content {
+  /* background-image: url("../images/gradient1.png"); */
+  height: 100%;
+  border-radius: 5px;
+}
+#call-me .content .text {
+  height: 100%;
+  margin-left: 40px;
+  display: flex;
+  align-items: center;
+}
+#call-me .content .text div h2 {
+  margin-bottom: 10px;
+  width: 500px;
+}
+#call-me h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: #ffffff;
+}
+#call-me button {
+  padding: 15px 20px;
+  border-radius: 5px;
+  color: #005fac;
+  border: 0px;
+  background-color: #ffffff;
+  font-weight: bold;
+}
+
+/* call me end */
+
+/* footer start */
+
+#footer {
+  background-color: black;
+  color: #ffffff;
+  display: flex;
+  gap: 20%;
+  padding: 80px 150px;
+}
+.left {
+  width: 80%;
+}
+.left h2 {
+  font-size: 40px;
+  font-weight: 600;
+}
+.left p {
+  font-size: 16px;
+  margin: 20px 0px;
+  line-height: 25px;
+}
+.social {
+  display: flex;
+  gap: 15px;
+}
+.right {
+  width: 50%;
+}
+.right h2 {
+  font-size: 25px;
+  font-weight: 600;
+}
+.right input {
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  border-radius: 4px;
+  margin: 15px 0px;
+  width: 270px;
+}
+.right button {
+  display: block;
+  padding: 15px 30px;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #005fac;
+  border-radius: 5px;
+  color: #ffffff;
+}
+/* footer end */
